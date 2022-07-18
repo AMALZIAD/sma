@@ -9,14 +9,14 @@ public class ConsumerAgent extends Agent {
     }
     @Override
     protected void beforeMove() {
-        System.out.println("Avant de migrer vers une nouvelle location .....");
+        System.out.println("Before migration .....");
     }
     @Override
     protected void afterMove() {
-        System.out.println("Je viens d'arriver à une nouvelle location .....");
+        System.out.println("apres migration....");
     }
     @Override
     protected void takeDown() {
-        System.out.println("avant de mourir .....");
+        System.out.println("befor dying :( .....");
     }
 }
